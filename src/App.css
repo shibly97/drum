@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.alert{
+  width : 400px;
+  margin: 50px auto;
+}
+
+.pad{
+  width: 50%;
+  margin: auto;
+  height: 300px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.drum-pad{
+  background-color: rgba(107, 107, 255, 0.253);
+  border: rgba(150, 150, 255, 0.253) solid 2px;
+  cursor: grabbing;
+  border-radius: 3px;
+}
+
+.drum-pad:hover{
+ background-color: rgb(203, 203, 250);
+}
+
+#name{
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+label{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+}
